@@ -3,13 +3,13 @@ A test project set by Udacity/Starbucks to build a model for finding Customers
 who will spend $10 given a Promotion. This project was originally a take home
 assignment for prospective Starbucks employees.
 
-##Contents
+## Contents
 1. Files and Implementation
 2. Project Overview
 3. Results and Observations
 4. Licensing, Authors, and Acknowledgements
 
-##1. Files and Implementation
+## 1. Files and Implementation
 1. `training.csv`
 - CSV containing training data for building model
 2. `Test.csv`
@@ -21,7 +21,7 @@ assignment for prospective Starbucks employees.
 
 The standard Anaconda distribution of Python 3 is all you will need to run this.
 
-##2. Project Overview
+## 2. Project Overview
 
 A randomized experiment was conducted and the results are in `Training.csv`
 `Treatment` – Indicates if the customer was part of treatment or control
@@ -50,7 +50,7 @@ Net Incremental Revenue:
  [(# of Purchasers in Treated *$10) – (# of Treated Customers *$0.15)]  
  -  [# of Purchasers in Control * $10]
 
-##3. Results and Observations
+## 3. Results and Observations
 
 Model 1 in `Starbucks.py` performed suprisingly well for being a somewhat simple
 model. With an IRR of 0.0183 and NIR of 290.50, this a much more optimistic model
@@ -65,7 +65,7 @@ an IRR of 0 and NIR of -0.75.
 There are many many more ways to play with this data and I no doubt will return
 to this at some point to see if I can improve and refactor (which I certainly can)
 
-##4.Licensing, Authors, and Acknowledgements
+## 4.Licensing, Authors, and Acknowledgements
 All data was provided by Udacity and Starbuck for the purpose of this project.
 
 Udacity:[Here](https://www.Udacity.com)
