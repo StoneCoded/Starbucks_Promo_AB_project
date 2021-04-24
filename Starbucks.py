@@ -137,6 +137,7 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 print(confusion_matrix(y_test, y_pred))
 print('Accuracy: {:.4f}))'.format(model.score(X_test, y_test)))
+
 #[[16755 0]
 #[152   0]] suggests this didn't go according to plan
 
